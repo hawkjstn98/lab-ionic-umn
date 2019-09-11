@@ -22,8 +22,4 @@ export class PlaceDetailPage implements OnInit {
         }
     );
   }
-
-  // fetchData(){
-  //   return this.place.getDataById();
-  // }
 }

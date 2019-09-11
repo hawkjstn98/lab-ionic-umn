@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{selectedPlace.title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content text-center padding>
+  <ion-grid>
+    <ion-col size="12">
+      <p>{{selectedPlace.description}}</p>
+        <ion-button expand="full" color="primary" (click)="onBookPlace()">Book Now</ion-button>
+        <ion-button expand="full" color="danger" (click)="onCancel()"><ion-icon name="close"></ion-icon>Cancel</ion-button>
+    </ion-col>
+  </ion-grid>
+</ion-content>
