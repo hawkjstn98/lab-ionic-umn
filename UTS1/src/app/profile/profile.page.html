@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-segment>
+    <ion-segment-button routerLink="/browse">Browse</ion-segment-button>
+    <ion-segment-button routerLink="/profile">Profile</ion-segment-button>
+  </ion-segment>
+  <ion-grid>
+    <ion-col size="12" offset="2" text-center>
+      <ion-card>
+        <ion-card-title>
+          <ion-icon name="logo-angular">
+          </ion-icon>
+        </ion-card-title>
+        <ion-card-subtitle>
+          Justin Susanto<br>
+          NIM00000013613
+        </ion-card-subtitle>
+        <ion-card-content>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-grid>
+
+  <ion-tabs slot="bottom">
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button routerLink="browse">
+        <ion-label>Browse</ion-label>
+        <ion-icon name="search"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button routerLink="profile">
+        <ion-label>Profile</ion-label>
+        <ion-icon name="card"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>
